@@ -40,7 +40,7 @@ public sealed partial class CP14SkillStorageComponent : Component
     /// The maximum ceiling of experience points that can be spent on learning skills. Not tied to a category.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public FixedPoint2 ExperienceMaxCap = 5;
+    public FixedPoint2 ExperienceMaxCap = 7;
 }
 
 /// <summary>
