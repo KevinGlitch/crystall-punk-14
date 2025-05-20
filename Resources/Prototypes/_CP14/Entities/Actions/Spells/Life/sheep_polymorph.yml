@@ -42,7 +42,7 @@
       sprite: _CP14/Actions/Spells/misc.rsi
       state: polymorph
     event: !type:CP14DelayedEntityTargetActionEvent
-      cooldown: 30
+      cooldown: 12
       castDelay: 1.5
       breakOnMove: false
  
