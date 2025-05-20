@@ -28,7 +28,7 @@
       sprite: _CP14/Actions/Spells/water.rsi
       state: water_creation
     event: !type:CP14DelayedInstantActionEvent
-      cooldown: 10
+      cooldown: 5
       castDelay: 0.8
       breakOnMove: false
 

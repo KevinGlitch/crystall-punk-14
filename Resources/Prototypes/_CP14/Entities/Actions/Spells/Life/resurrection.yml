@@ -56,7 +56,7 @@
       sprite: _CP14/Actions/Spells/necromancy.rsi
       state: resurrection
     event: !type:CP14DelayedEntityTargetActionEvent
-      cooldown: 300
+      cooldown: 100
       castDelay: 10
       breakOnMove: true
 

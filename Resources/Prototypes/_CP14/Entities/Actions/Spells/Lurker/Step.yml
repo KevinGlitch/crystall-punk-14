@@ -29,7 +29,7 @@
       sprite: _CP14/Actions/Spells/lurker.rsi
       state: step
     event: !type:CP14DelayedEntityWorldTargetActionEvent
-      cooldown: 30
+      cooldown: 14
       hidden: true
       breakOnMove: false
 
