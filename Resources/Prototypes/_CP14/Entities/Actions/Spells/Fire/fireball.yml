@@ -36,7 +36,7 @@
       sprite: _CP14/Actions/Spells/fire.rsi
       state: fireball
     event: !type:CP14DelayedEntityWorldTargetActionEvent
-      cooldown: 25
+      cooldown: 3
       castDelay: 2.5
       breakOnMove: false
 
