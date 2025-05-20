@@ -31,7 +31,7 @@
       sprite: _CP14/Actions/Spells/fire.rsi
       state: flame_creation
     event: !type:CP14DelayedInstantActionEvent
-      cooldown: 10
+      cooldown: 4
       breakOnMove: false
 
 - type: entity
