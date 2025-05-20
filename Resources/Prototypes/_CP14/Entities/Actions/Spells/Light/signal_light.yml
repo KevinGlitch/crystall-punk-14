@@ -14,7 +14,7 @@
     sound: !type:SoundPathSpecifier
       path: /Audio/Magic/rumble.ogg
     event: !type:CP14DelayedInstantActionEvent
-      cooldown: 10
+      cooldown: 5
       castDelay: 0.5
       breakOnMove: false
 

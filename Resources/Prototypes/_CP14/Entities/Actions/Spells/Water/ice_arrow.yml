@@ -31,7 +31,7 @@
       sprite: _CP14/Actions/Spells/water.rsi
       state: ice_arrow
     event: !type:CP14DelayedInstantActionEvent
-      cooldown: 10
+      cooldown: 5
       breakOnMove: false
 
 - type: entity
