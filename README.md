@@ -27,3 +27,7 @@ These are just the most important points, Please read [Legal.md](https://github.
 ## Forking CrystallEdge
 
 You cannot create forks of CrystallEdge to open your own public servers. You can copy a build for educational purposes, code research and contributing to the main build.
+
+## Reason for Fork
+
+This fork is using CrystallEdge to host a private server between me and my friends and is not intended for public use. If you want the most up to date version, go to the parent of this fork.
