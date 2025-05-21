@@ -1,11 +1,11 @@
 - type: entity
   parent: CP14BaseMobSpeciesOrganic
-  id: CP14BaseMobElf
-  name: Mr. Elf
+  id: CP14BaseMobHighElf
+  name: Mr. HighElf
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: CP14Elf
+    species: CP14HighElf
   - type: PassiveDamage
     allowedStates:
     - Alive
@@ -35,16 +35,21 @@
     requiredLegs: 2
   - type: Bloodstream
     bloodReagent: CP14BloodElf
+  - type: Damageable
+    damageContainer: CP14Biological
+    damageModifierSet: CP14HighElf #+30% all damage
   - type: CP14MagicEnergyContainer #Increased mana container
-    maxEnergy: 200
-    energy: 200
-  - type: CP14MagicEnergyDraw #Half of standard mana regeneration
-    energy: 0.5
-    delay: 3
+    maxEnergy: 250
+    energy: 250
+  - type: CP14MagicEnergyDraw #Standared Magic Regen
+    energy: 1
+    delay: 2.5
   - type: CP14SkillStorage #Innate metamagic
     freeLearnedSkills:
     - MetamagicT1
     - MetamagicT2
+  - type: CP14SkillStorage # +3 memory point
+    experienceMaxCap: 10
   - type: Inventory
     templateId: CP14Human
     displacements:
