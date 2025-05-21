@@ -156,8 +156,7 @@
     Bloodloss: 0.0
     Cellular: 0.0
 
-
- - type: damageModifierSet
+- type: damageModifierSet
   id: CP14HighElf
   coefficients:
     Blunt: 1.30
