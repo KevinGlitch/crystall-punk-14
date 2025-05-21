@@ -155,3 +155,15 @@
     Asphyxiation: 0.0
     Bloodloss: 0.0
     Cellular: 0.0
+
+- type: damageModifierSet
+  id: CP14HighElf
+  coefficients:
+    Blunt: 1.30
+    Slash: 1.30
+    Piercing: 1.30
+    Heat: 1.30
+    Cold: 1.30
+    Shock: 1.30
+    Poison: 1.30
+    Caustic: 1.30
