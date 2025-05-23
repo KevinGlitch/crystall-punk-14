@@ -44,10 +44,6 @@
   - type: CP14MagicEnergyDraw #Standared Magic Regen
     energy: 1
     delay: 2.5
-  - type: CP14SkillStorage #Innate metamagic
-    freeLearnedSkills:
-    - MetamagicT1
-    - MetamagicT2
   - type: CP14SkillStorage # +3 memory point
     experienceMaxCap: 10
   - type: Inventory
